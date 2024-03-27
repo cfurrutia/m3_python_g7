@@ -59,3 +59,11 @@
 <h6 align="left">dia 10 - Introducción a estructuras de datos - diccionarios parte 1</h6>
 
 ###
+
+<h6 align="left">dia 11 - Introducción a estructuras de datos - diccionarios parte 2</h6>
+
+###
+
+<h6 align="left">dia 12 - Guia de ejercicios - Desafio evaluado</h6>
+
+###
