@@ -1,4 +1,5 @@
 """
+Ejericio 3:
 El formato de estos recordatorios son una fecha (año-mes-día), una hora y una descripción del evento.
 Aplicando métodos apropiados para la estructura de datos entregada edite la lista de 
 recordatorios de la siguiente manera:
@@ -37,7 +38,8 @@ recordatorios.append(['2021-12-31', '22:00', 'Cena de Año Nuevo'])
 
 # Muestra lista recordatorio modificada y ordenada
 
-# recordatorios.sort()
-# print(recordatorios)
-
-print(sorted(recordatorios)) 
+posicion = 0
+for posicion in sorted(recordatorios):
+    print(posicion)
+    
+# en el pdf hay un error en el resultado  ['2021-01-02', '06:00', 'Empezar el año'], debería  decir ['2021-02-02', '06:00', 'Empezar el Año']

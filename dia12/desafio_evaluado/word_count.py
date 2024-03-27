@@ -1,5 +1,6 @@
 
 """
+Ejercicio 2
 Genere un archivo llamado word_count.py que importe un texto a Python y realice las siguientes tareas:
 
 Utilizando una estructura de datos apropiada, cuente la cantidad de caracteres 
