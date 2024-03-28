@@ -1,24 +1,41 @@
-# Paso 1
+"""
+3. Apoyo matemático.
+Otra área en la que la empresa presta soporte es a las ONG. En un programa de ayuda escolar 
+que tiene la esta ONG se está enseñando a programar algunas operaciones avanzadas a 
+niños con alto potencial pero de escasos recursos. Se quiere enseñar dos operaciones 
+conocidas como el factorial y la productoria y se requiere que usted prepare una script que 
+implemente esto. 
+
+Crear un script llamado ong.py que contenga las siguientes funciones:
+
+Una función que calcule el factorial.
+Una función que calcule la productoria.
+Una función que permita controlar los cálculos. Esta función se debe invocar 
+de la siguiente manera
+"""
+# La función calcula el factorial de un número n.
+def factorial(numero):
+    valor = 1
+    for elemento in range(1,numero+1):
+        valor *= elemento
+    return valor
+
+# La función calcula el producto de los elementos en una lista.
 def productoria(lista):
     valor = 1
     for elemento in lista:
         valor *= elemento
     return valor
 
-# Paso 2
-def factorial(n):
-    valor = 1
-    for elemento in range(1,n+1):
-        valor *= elemento
-    return valor
-
-# Paso 3
-def calcular(**parametros):
-    for k, v in parametros.items():
-        if 'fact' in k:
-            print(f'El factorial de {v} es {factorial(v)}')
+# La función donde verifica si la clave contiene 'fact'  (**kwargs)
+def calcular(**parametros): 
+    for clave, valor in parametros.items():
+        if 'fact' in clave:
+            print(f'El factorial de {valor} es {factorial(valor)}')
+        elif 'prod' in clave:
+            print(f'La productoria de {valor} es {productoria(valor)}')
         else:
-            print(f'La productoria de {v} es {productoria(v)}')
+            print("Argumento ingresado es ilegible")    
 
-# Paso 4
+# Control de cálculos
 calcular(fact_1 = 5, prod_1 = [4,6,7,4,3], fact_2 = 6)
