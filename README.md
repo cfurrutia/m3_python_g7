@@ -67,3 +67,7 @@
 <h6 align="left">dia 12 - Guia de ejercicios - Desafio evaluado</h6>
 
 ###
+
+<h6 align="left">dia 13 - Funciones - Desafio evaluado</h6>
+
+###
