@@ -21,7 +21,9 @@ velocidad = [25, 12, 19, 16, 11, 11, 24, 1,
 
 # funcion para calcular el promedio = 13.2
 def calcular_promedio(velocidad):
-    suma = sum(velocidad)
+    suma = 1
+    for elemento in velocidad:
+        suma += elemento
     promedio = suma / len(velocidad)
     return promedio
 # funcion para listar la posisciones mayores al promedio
