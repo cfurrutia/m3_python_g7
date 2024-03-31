@@ -28,8 +28,8 @@ def productoria(lista):
     return valor
 
 # La función donde verifica si la clave contiene 'fact'  (**kwargs)
-def calcular(**parametros): 
-    for clave, valor in parametros.items():
+def calcular(**control_calculos): 
+    for clave, valor in control_calculos.items():
         if 'fact' in clave:
             print(f'El factorial de {valor} es {factorial(valor)}')
         elif 'prod' in clave:
