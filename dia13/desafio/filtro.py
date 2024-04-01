@@ -53,7 +53,9 @@ if len(sys.argv) == 3:
             print(f'No se encontraron productos {opcion}es al umbral.')
     else:
         print(f'Lo sentimos, {opcion} no es una operación válida.')
-
-else:
+elif len(sys.argv) == 2:
     resultado = filtrar(precios, umbral)
     print(f'Los productos mayores al umbral son: {", ".join(resultado)}')
+
+else:
+    print('Lo sentimos, la opcion no es una operación válida.')   

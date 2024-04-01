@@ -24,12 +24,10 @@ def calcular_promedio(velocidad):
     suma = 1
     for elemento in velocidad:
         suma += elemento
-    promedio = suma / len(velocidad)
-    return promedio
+    return sum(velocidad)/len(velocidad)
 # funcion para listar la posisciones mayores al promedio
 def ordenar(velocidad):
     promedio = calcular_promedio(velocidad)
-    posiciones = [i for i, valor in enumerate(velocidad) if valor > promedio]
-    return posiciones
+    return [i for i, valor in enumerate(velocidad) if valor > promedio]
 # muestra lista de posisciones mayores al promedio
 print(ordenar(velocidad))
