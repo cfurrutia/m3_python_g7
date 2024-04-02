@@ -75,3 +75,7 @@
 <h6 align="left">dia 14 - Organización de un Proyecto en Python y modularización</h6>
 
 ###
+
+<h6 align="left">dia 15 - Desafío evaluado - Estructuras de datos y funciones</h6>
+
+###
