@@ -79,3 +79,7 @@
 <h6 align="left">dia 15 - Desafío evaluado - Estructuras de datos y funciones</h6>
 
 ###
+
+<h6 align="left">dia 16 - Introducción a APIs y Seguridad en las API</h6>
+
+###
