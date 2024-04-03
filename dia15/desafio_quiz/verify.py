@@ -9,7 +9,7 @@ def verificar(alternativas, eleccion):
         eleccion (str): Elegir la alternativa.
 
     Returns:
-        int: correcto , 1 si la respuesta es correcta, 0 Respuesta incorrecta.
+        bool: correcto , 1 si la respuesta es correcta, 0 Respuesta incorrecta.
     """
     #devuelve el índice de elección dada
     eleccion = ['a', 'b', 'c','d'].index(eleccion)
