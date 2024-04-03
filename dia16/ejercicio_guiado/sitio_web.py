@@ -12,8 +12,10 @@ imagen = img_template.substitute(url = 'Hola')
 #print(imagen)
 
 html_template = Template('''<!DOCTYPE html>
-                            <html>
+                            <html lang="es">
                             <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
                             <title>Título de la Página</title>
                             </head>
                             <body>
