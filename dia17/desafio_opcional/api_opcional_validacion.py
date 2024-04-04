@@ -31,7 +31,7 @@ if response.status_code == 201:
     print("Created, Usuario agregado")
     created_user = response.json()
     # Se imprimen los datos
-    print(created_user)
+    print(created_user) 
 else:
     # Se informa del error
     print(f"Error al crear usuario: {response.status_code}")
